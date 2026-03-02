@@ -1,5 +1,5 @@
 function AgeCounter() {
-    var startYear = new Date("2009-05-17");
+    var startYear = new Date("2004-07-11");
     var now = new Date();
     var years = now.getTime() - startYear.getTime();
     var msPerYear = 1000 * 60 * 60 * 24 * 365.25;

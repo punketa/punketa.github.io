@@ -14,7 +14,7 @@ body {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
-    background: url('./assets/bg.png') repeat;
+    background: url('./assets/wallpaper.png') repeat;
     background-size: contain;
     --webkit-background-clip: text;
     --webkit-text-fill-color: transparent;
