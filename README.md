@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1 class="title">kavan gill</h1>
-        <div id="years-counter" class="counter">I am 16.793046174 years</div>
+        <div id="years-counter" class="counter"></div>
         <div class="socials">
             <a id="youtube-link" href="https://www.youtube.com/@kevkev-70" target="_blank">YouTube</a>
             <a id="github-link" href="https://www.github.com/kavan010" target="_blank">GitHub</a>
