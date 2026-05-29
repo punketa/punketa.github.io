@@ -26,3 +26,177 @@ body {
     color: var(--main-color);
     margin-top: 20px;
 }
+
+.widgets {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.steam-card {
+    width: 560px;
+    height: 180px;
+    background: #000;
+    border-radius: 16px;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+}
+
+.steam-avatar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 96px;
+    height: 96px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.steam-user {
+    position: absolute;
+    top: 18px;
+    left: 100px;
+}
+
+.steam-user h2 {
+
+    margin: 0;
+
+    font-size: 28px;
+
+    color: #c9a57d;
+
+    font-weight: 700;
+}
+
+.steam-realname {
+    margin-top: 4px;
+    color: #777;
+    font-size: 13px;
+}
+
+.steam-status {
+
+    margin-top: 28px;
+
+    font-size: 18px;
+
+    color: #ddd;
+}
+
+.steam-right {
+
+    position: absolute;
+
+    top: 18px;
+    right: 20px;
+
+    width: 240px;
+
+    text-align: center;
+}
+
+.steam-right h3 {
+
+    margin: 0 0 10px 0;
+
+    font-size: 16px;
+
+    font-weight: normal;
+
+    color: #ccc;
+}
+
+.steam-banner {
+
+    width: 240px;
+
+    border-radius: 8px;
+
+    display: block;
+}
+
+.steam-bottom {
+
+    position: absolute;
+
+    left: 20px;
+    bottom: 18px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+}
+
+.steam-level {
+
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+
+    background: #2e8b57;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+}
+
+.steam-games {
+
+    font-size: 14px;
+
+    color: white;
+}
+
+.steam-icons {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-left: 10px;
+}
+
+.steam-icons img {
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 4px;
+
+    object-fit: cover;
+}
+
+.steam-details {
+
+    margin-top: 14px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+
+    font-size: 12px;
+
+    color: #999;
+}
+
+.steam-details span {
+
+    color: #ccc;
+
+    font-weight: bold;
+}
