@@ -114,13 +114,9 @@ body {
 }
 
 .steam-user h2 {
-
     margin: 0;
-
     font-size: 28px;
-
     color: #c9a57d;
-
     font-weight: 700;
 }
 
@@ -131,57 +127,38 @@ body {
 }
 
 .steam-status {
-
     margin-top: 28px;
-
     font-size: 18px;
-
     color: #ddd;
 }
 
 .steam-right {
-
     position: absolute;
-
     top: 18px;
     right: 20px;
-
     width: 240px;
-
     text-align: center;
 }
 
 .steam-right h3 {
-
     margin: 0 0 10px 0;
-
     font-size: 16px;
-
     font-weight: normal;
-
     color: #ccc;
 }
 
 .steam-banner {
-
     width: 240px;
-
     border-radius: 8px;
-
     display: block;
 }
 
 .steam-bottom {
-
     position: absolute;
-
     left: 20px;
     bottom: 18px;
-
     display: flex;
-
     align-items: center;
-
     gap: 14px;
 }
 
@@ -189,63 +166,42 @@ body {
 
     width: 32px;
     height: 32px;
-
     border-radius: 50%;
-
     background: #2e8b57;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     font-size: 14px;
 }
 
 .steam-games {
-
     font-size: 14px;
-
     color: white;
 }
 
 .steam-icons {
-
     display: flex;
-
     gap: 10px;
-
     margin-left: 10px;
 }
 
 .steam-icons img {
-
     width: 40px;
     height: 40px;
-
     border-radius: 4px;
-
     object-fit: cover;
 }
 
 .steam-details {
-
     margin-top: 14px;
-
     display: flex;
-
     flex-direction: column;
-
     gap: 4px;
-
     font-size: 12px;
-
     color: #999;
 }
 
 .steam-details span {
-
     color: #ccc;
-
     font-weight: bold;
 }
